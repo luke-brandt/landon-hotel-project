@@ -3,4 +3,8 @@
 # WESTERN GOVERNOR UNIVERSITY 
 ## D387 – ADVANCED JAVA
 
-Test Push
+03/21/2024 - B1
+
+a. Adds resource bundles for both English and French languages. Creates a controller to get both messages and adds them to an arrayList.
+
+b. Displays the welcome message in both English and French on the front end using a different thread for each language.
