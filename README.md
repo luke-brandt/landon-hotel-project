@@ -5,6 +5,10 @@
 
 03/21/2024 - B1
 
-a. Adds resource bundles for both English and French languages. Creates a controller to get both messages and adds them to an arrayList.
+- a. Adds resource bundles for both English and French languages. Creates a controller to get both messages and adds them to an arrayList.
 
-b. Displays the welcome message in both English and French on the front end using a different thread for each language.
+- b. Displays the welcome message in both English and French on the front end using a different thread for each language.
+
+03/21/2024 - B2
+
+- Modifies the front-end to display the price for a reservation in currency rates for U.S. dollars ($), Canadian dollars (C$), and euros (€) on different lines.
