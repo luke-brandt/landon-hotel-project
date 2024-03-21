@@ -25,7 +25,13 @@
 <main id="wrapper">
   <div class="scene" id="welcome">
     <article class="content">
-
+    <h4>
+      Join us for an online live presentation held at the Landon Hotel on March 21 2024 at
+      <span *ngFor="let times of presentationTimes">
+        {{times}}|
+      </span>
+    </h4>
+      <br>
 
 
       <div class="row">

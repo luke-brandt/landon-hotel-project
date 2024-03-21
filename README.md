@@ -12,3 +12,9 @@
 03/21/2024 - B2
 
 - Modifies the front-end to display the price for a reservation in currency rates for U.S. dollars ($), Canadian dollars (C$), and euros (€) on different lines.
+
+03/21/2024 - B3
+
+- a. Writes a Java method to convert times between eastern time (ET), mountain time (MT), and coordinated universal time (UTC) zones.
+
+- b. Displays the times zones on the front-end.
