@@ -18,3 +18,7 @@
 - a. Writes a Java method to convert times between eastern time (ET), mountain time (MT), and coordinated universal time (UTC) zones.
 
 - b. Displays the times zones on the front-end.
+
+03/22/2024 - C1
+
+- a. Builds Dockerfile to run and create docker image.

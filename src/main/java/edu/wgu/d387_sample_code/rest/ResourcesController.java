@@ -33,7 +33,7 @@ public class ResourcesController {
                 InputStream stream = new ClassPathResource("translation_en_US.properties").getInputStream();
                 properties.load(stream);
                 String eng = properties.getProperty("welcome");
-                System.out.println(eng);
+                System.out.println(eng + "thread 1");
                 welcomeMessages.add(eng);
 
             } catch (Exception e){
@@ -47,7 +47,7 @@ public class ResourcesController {
                 InputStream stream = new ClassPathResource("translation_fr_CA.properties").getInputStream();
                 properties.load(stream);
                 String fr = properties.getProperty("welcome");
-                System.out.println(fr);
+                System.out.println(fr + "thread 2");
                 welcomeMessages.add(fr);
 
             } catch (Exception e){
