@@ -19,8 +19,8 @@ export class AppComponent implements OnInit{
 
   constructor(private httpClient:HttpClient, private location:Location, private locationStrategy:LocationStrategy){}
 
-  // private baseURL:string='http://localhost:8080';
-  private baseURL:string=this.location.path();
+  private baseURL:string='http://localhost:8000';
+  //private baseURL:string=this.location.path();
 
   private getUrl:string = this.baseURL + '/room/reservation/v1/';
   private postUrl:string = this.baseURL + '/room/reservation/v1';
